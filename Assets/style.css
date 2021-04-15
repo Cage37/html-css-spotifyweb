@@ -38,12 +38,55 @@ header{
 main{
     height: 1100px;
     width: 100vw;
+    padding-top: 85px;
 }
+
+/* Left Bar */
 
 .left_bar{
     height: 100%;
     width: 230px;
-    background-color: green;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.left_list_head > li > a{
+    display: inline-block !important;
+    color: #A3A3A3;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.left_list_bottom > li > a{
+    color: #A3A3A3;
+    line-height: 40px;
+    font-size: 15px;
+} 
+
+ul > li{
+    list-style: none !important;
+}
+
+.span_img{
+    width: 20px;
+    display: inline-block;
+    color: #A3A3A3;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    background-color: #A3A3A3;
+}
+
+.square i{
+    color: black;
+}
+
+.sq_playlist a{
+    color: #A3A3A3;
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 .main_section{

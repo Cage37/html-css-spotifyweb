@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 <body>
-
+    <div class="maxcnt">
     <!-- Header -->
-    <header class="d-flex align-items-center px-4">
+    <header class="d-flex align-items-center pr-4">
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
                 <img class="logo_sp" src="./Assets/IMG/logo.svg" alt="Logo Spotify">
@@ -23,7 +23,7 @@
     <!-- Header -->
 
     <!-- Main -->
-    <main class="d-flex">
+    <main>
 
         <section class="left_bar">
             <ul class="nav flex-column left_list_head">
@@ -37,14 +37,14 @@
                   <img src="./Assets/IMG/libreria.svg" class="span_img" alt="My library"><a class="nav-link" href="#">La tua libreria</a>
                 </li>
             </ul>
-            <h6 class="text-white mt-4">PLAYLIST</h6>
+            <h6 class="text-white mt-3">PLAYLIST</h6>
             <div class="sq_playlist d-flex flex-wrap align-items-center mt-3">
                 <div class="square d-flex justify-content-center align-items-center">
                     <i class="fas fa-plus"></i>
                 </div>
                 <a href="">Crea Playlist</a>
             </div>
-            <ul class="flex-column left_list_bottom mt-3">
+            <ul class="flex-column left_list_center mt-2">
                 <li class="nav-item">
                   <a href="#">Nome Playlist</a>
                 </li>
@@ -67,9 +67,109 @@
                     <a href="#">Nome Playlist</a>
                   </li>
               </ul>
+              <div class="left_list_bottom">
+                <div class="list_bottom_download">
+                  <i class="far fa-arrow-alt-circle-down"></i>
+                  <span class="pl-1">Installa app</span>
+                </div>
+                <div class="list_bottom_profile pt-2">
+                  <img src="./Assets/IMG/profile.svg" alt="">
+                  <span class="pl-1">John Doe</span>
+                </div>
+              </div>
         </section>
 
-        <section class="main_section"> 
+        <section class="main_section">
+          <div class="container-fluid">
+            <div class="row d-flex justify-content-center list_main">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">IN EVIDENZA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PODCAST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CLASSIFICHE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">GENERI E MOOD</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">NUOVE USCITE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SCOPRI</a>
+                </li>
+              </ul>
+            </div>
+          </div> 
+          <div class="container-fluid mt-4">
+            <h5 class="text-white">Recently played</h5>
+            <div class="row mt-3">
+              <div class="col-2">
+                <img src="./Assets/IMG/metal_lifting.jpg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">Heavy Metal</h6>
+                <p class="text-center p_main">Subtitle</p>
+              </div>
+              <div class="col-2">
+                <img src="./Assets/IMG/stranger.jpeg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h6>
+                <p class="text-center p_main">Kyle Dixon & Michael Stein</p>
+              </div>
+              <div class="col-2">
+                <img src="./Assets/IMG/aquietplace.jpeg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">A quiet place</h6>
+                <p class="text-center p_main">Subtitle</p>
+              </div>
+              <div class="col-2">
+                <img src="./Assets/IMG/split.jpeg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">Split</h6>
+                <p class="text-center p_main">Subtitle</p>
+              </div>
+              <div class="col-2">
+                <img src="./Assets/IMG/cure.jpeg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">A cure for wellness</h6>
+                <p class="text-center p_main">Subtitle</p>
+              </div>
+              <div class="col-2">
+                <img src="./Assets/IMG/sinister.jpeg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">Sinister</h6>
+                <p class="text-center p_main">Subtitle</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid mt-3">
+            <h5 class="text-white">Creato per John Doe</h5>
+            <p class="p_subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
+            <div class="row mt-3">
+              <div class="col-2">
+                <img src="./Assets/IMG/radar.jpeg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">Release Radar</h6>
+              </div>
+              <div class="col-2">
+                <img src="./Assets/IMG/mixdaily.jpeg"  class="img_main" alt="">
+                <h6 class="h_main pt-2 text-center">Daily Mix 1</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid mt-3">
+            <h5 class="text-white">Artisti più popolari</h5>
+            <p class="p_subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
+            <div class="row mt-3">
+              <div class="col-2">
+                <img src="./Assets/IMG/youg.jpeg"  class="img_main br_img" alt="">
+                <h6 class="h_main pt-2 text-center">Lana Del Rey</h6>
+                </div>
+              <div class="col-2">
+                <img src="./Assets/IMG/einaudi.jpeg"  class="img_main br_img" alt="">
+                <h6 class="h_main pt-2 text-center">Ludovico Einaudi</h6>
+                </div>
+              
+            </div>
+          </div>
 
         </section>
 
@@ -81,6 +181,6 @@
         
     </footer>
     <!-- /Footer -->
-    
+  </div>  
 </body>
 </html>

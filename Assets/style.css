@@ -31,7 +31,6 @@ header{
 
 .logo_sp{
     width: 140px;
-
 }
 
 .btn_head{
@@ -112,6 +111,11 @@ ul > li{
     background-color: #A3A3A3;
 }
 
+.square:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
 .square i{
     color: black;
 }
@@ -153,8 +157,38 @@ ul > li{
     color: #A3A3A3 !important;
 }
 
+.fluoline{
+    width: 40px;
+    height: 2px;
+    background-color: #BFFD5B;
+    margin-left: 33px;
+    margin-top: -5px;
+}
+
+
 .img_main{
     width: 100%;
+    backface-visibility: hidden;
+    transition: 0.3s ease;
+}
+
+.main_play{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 60px;
+    left: 75px;
+    opacity: 0;
+    display: block;
+}
+
+.img_hover:hover .main_play{
+    opacity: 1;
+}
+
+.img_hover:hover .img_main{
+    filter: brightness(50%);
+    cursor: pointer;
 }
 
 .br_img{
@@ -176,6 +210,11 @@ ul > li{
     font-size: 11px;
     color: #A3A3A3;
     padding-top: -15px;
+}
+
+.text_white_hover:hover{
+    color: white !important;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -234,6 +273,11 @@ footer{
 
 .foot_play{
     font-size: 30px !important;
+}
+
+.foot_play:hover{
+    font-size: 33px !important;
+    cursor: pointer;
 }
 
 .slider{

@@ -75,6 +75,16 @@ main{
     width: 20px;
 }
 
+.left_line_fluo{
+    height: 25px;
+    width: 3px;
+    background-color: #BFFD5B;
+    display: inline-block;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 2px;
+}
+
 .left_list_head > li > a{
     display: inline-block !important;
     color: #A3A3A3;
@@ -159,7 +169,7 @@ ul > li{
 
 .fluoline{
     width: 40px;
-    height: 2px;
+    height: 3px;
     background-color: #BFFD5B;
     margin-left: 33px;
     margin-top: -5px;

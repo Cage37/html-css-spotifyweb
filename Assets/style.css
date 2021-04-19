@@ -14,7 +14,7 @@
 
 .maxcnt{
     height: 1100px;
-    width: 100vw;
+    width: 1440px;
     background-color: #151922;
 }
 
@@ -31,6 +31,10 @@ header{
 
 .logo_sp{
     width: 140px;
+}
+
+.logo_small{
+    display: none;
 }
 
 .btn_head{
@@ -57,7 +61,7 @@ main{
 /* Left Bar */
 
 .left_bar{
-    height: calc(100vh - 175px);
+    height: calc(100% - 175px);
     overflow-y: scroll;
     width: 230px;
     background-color: black;
@@ -155,6 +159,8 @@ ul > li{
     font-size: 14px;
 }
 
+/* Main Section */
+
 .main_section{
     height: 100%;
     width: calc(100% - 230px);
@@ -162,8 +168,12 @@ ul > li{
     background-color: #151922;
 }
 
+.list_main > ul > li{
+    width: 150px;
+}
+
 .list_main > ul > li > a{
-    font-size: 12px;
+    font-size: 11px;
     color: #A3A3A3 !important;
 }
 
@@ -314,3 +324,247 @@ footer{
 .lastslider{
     height: 10px;
 }
+
+/* Media Query */
+
+/* Media Query LG */
+
+@media screen and (min-width: 992px)
+and (max-width: 1199px) {
+
+    .left_list_bottom{
+        margin-top: 240px;
+    }
+}
+
+/* Media Query MD */
+
+@media screen and (min-width: 768px)
+and (max-width: 991px) {
+    
+
+    .maxcnt{
+        width: 991px;
+        height: 1300px;
+    }
+
+    .left_list_bottom{
+        margin-top: 140px;
+    }
+
+    .footer{
+        width: 991px;
+    }
+
+    .center_footer{
+        width: 300px;
+    }
+
+    .center_footer i{
+        font-size: 12px;
+        letter-spacing: 20px;
+        padding-left: 20px;
+    }
+
+    .foot_play{
+        font-size: 15px;
+    }
+
+    .slider{
+        width: 300px;
+    }
+} 
+
+/* Media Query SM */
+
+@media screen and (min-width: 567px)
+and (max-width: 767px) {
+
+    .maxcnt{
+        width: 767px;
+        height: 1600px;
+    }
+
+    .left_list_bottom{
+        margin-top: 190px;
+    }
+
+    .list_main > ul > li > a{
+        font-size: 8px;
+        text-align: center;
+    }
+
+    footer{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .first_footer{
+        width: 170px;
+    }
+
+    .first_footer img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .first_footer p{
+        padding-right: 5px;
+    }
+
+    .first_footer i{
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .center_footer{
+        width: 200px;
+    }
+
+    .slider{
+        width: 150px;
+    }
+
+    .center_footer i{
+        font-size: 10px;
+        letter-spacing: 10px;
+        padding-left: 10px;
+    }
+
+    .foot_play{
+        font-size: 12px;
+    }
+
+    .last_footer{
+        width: 200px;
+    }
+
+    .lastslider{
+        width: 100px;
+        height: 5px;
+    }
+
+    .last_footer i{
+        letter-spacing: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+}
+
+/* Media Query XS */
+
+@media screen and (max-width: 566px){
+
+    .maxcnt{
+        width: 100%;
+        max-width: 566px;
+        height: 1800px;
+    }
+
+    .left_bar{
+        width: 50px;
+        padding-right: 0;
+        padding-left: 2px;
+    }
+
+    .left_list_head{
+        text-align: center;
+    }
+
+    .nodisplayxs{
+        display: none !important;
+        opacity: 0;
+        width: 0 !important;
+        font-size: 0.001px !important;
+    }
+
+    .logo_small{
+        display: block;
+        width: 30px;
+    }
+
+    .list_bottom_download{
+        border-bottom: none;
+    }
+
+    .left_list_bottom{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_section{
+        height: 100%;
+        width: 500px;
+        margin-left: 50px;
+        background-color: #151922;
+    }
+
+    .list_main{
+        text-align: center;
+    }
+
+    .list_main > ul > li > a{
+        font-size: 8px;
+    }
+
+    footer{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .first_footer{
+        width: 160px;
+    }
+
+    .first_footer img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .first_footer p{
+        padding-right: 5px;
+    }
+
+    .first_footer i{
+        padding: 5px;
+        font-size: 10px;
+        vertical-align: middle;
+    }
+
+    .center_footer{
+        width: 150px;
+    }
+
+    .slider{
+        width: 150px;
+    }
+
+    .center_footer i{
+        font-size: 10px;
+        letter-spacing: 10px;
+        padding-left: 3px;
+    }
+
+    .foot_play{
+        font-size: 10px;
+    }
+
+    .last_footer{
+        width: 140px;
+    }
+
+    .lastslider{
+        width: 70px;
+        height: 5px;
+    }
+
+    .last_footer i{
+        letter-spacing: 8px;
+        font-size: 10px;
+        text-align: center;
+    }
+}   

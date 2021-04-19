@@ -15,7 +15,8 @@
     <header class="d-flex align-items-center pr-4">
         <div class="container-fluid">
             <div class="row d-flex justify-content-between">
-                <img class="logo_sp" src="./Assets/IMG/logo.svg" alt="Logo Spotify">
+                <img class="logo_sp nodisplayxs" src="./Assets/IMG/logo.svg" alt="Logo Spotify">
+                <img class="logo_small" src="./Assets/IMG/logo-small.svg" alt="">
                 <button type="button" class="btn btn-dark btn_head">EFFETTUA L'UPGRADE</button>
             </div>
         </div>
@@ -25,26 +26,28 @@
     <!-- Main -->
     <main>
 
+      <!-- Left Bar -->
+
         <section class="left_bar">
             <ul class="nav flex-column left_list_head">
                 <li class="nav-item">
-                  <div class="left_line_fluo"></div><img src="./Assets/IMG/home.svg" class="span_img span_home" alt="Home"><a class="nav-link active text_white_hover" href="#">Home</a>
+                  <div class="left_line_fluo nodisplayxs"></div><img src="./Assets/IMG/home.svg" class="span_img span_home" alt="Home"><a class="nav-link active text_white_hover nodisplayxs" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <img src="./Assets/IMG/search.svg" class="span_img" alt="Search"><a class="nav-link text_white_hover" href="#">Cerca</a>
+                  <img src="./Assets/IMG/search.svg" class="span_img" alt="Search"><a class="nav-link text_white_hover nodisplayxs" href="#">Cerca</a>
                 </li>
                 <li class="nav-item">
-                  <img src="./Assets/IMG/libreria.svg" class="span_img" alt="My library"><a class="nav-link text_white_hover" href="#">La tua libreria</a>
+                  <img src="./Assets/IMG/libreria.svg" class="span_img" alt="My library"><a class="nav-link text_white_hover nodisplayxs" href="#">La tua libreria</a>
                 </li>
             </ul>
-            <h6 class="text-white mt-3">PLAYLIST</h6>
-            <div class="sq_playlist d-flex flex-wrap align-items-center mt-3">
+            <h6 class="text-white mt-3 nodisplayxs">PLAYLIST</h6>
+            <div class="sq_playlist d-flex flex-wrap align-items-center mt-3 nodisplayxs">
                 <div class="square d-flex justify-content-center align-items-center ">
                     <i class="fas fa-plus"></i>
                 </div>
-                <a href="" class="text_white_hover text-decoration-none">Crea Playlist</a>
+                <a href="" class="text_white_hover text-decoration-none nodisplayxs">Crea Playlist</a>
             </div>
-            <ul class="flex-column left_list_center mt-2">
+            <ul class="flex-column left_list_center mt-2 nodisplayxs">
                 <li class="nav-item">
                   <a href="#" class="text_white_hover text-decoration-none">Nome Playlist</a>
                 </li>
@@ -70,36 +73,38 @@
               <div class="left_list_bottom">
                 <div class="list_bottom_download">
                   <i class="far fa-arrow-alt-circle-down"></i>
-                  <span class="pl-1 text_white_hover">Installa app</span>
+                  <span class="pl-1 text_white_hover nodisplayxs">Installa app</span>
                 </div>
                 <div class="list_bottom_profile pt-2">
                   <img src="./Assets/IMG/profile.svg" alt="">
-                  <span class="pl-1">John Doe</span>
+                  <span class="pl-1 nodisplayxs">John Doe</span>
                 </div>
               </div>
         </section>
 
+        <!-- Main Section -->
+
         <section class="main_section">
           <div class="container-fluid">
-            <div class="row d-flex justify-content-center list_main">
+            <div class="row d-flex justify-content-center list_main ">
               <ul class="nav">
-                <li class="nav-item">
+                <li class="nav-item col-lg-2 col-md col-sm-4 col-3">
                   <a class="nav-link active text_white_hover" href="#">IN EVIDENZA</a>
                   <div class="fluoline"></div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-lg-2 col-md col-sm-4 col-3">
                   <a class="nav-link text_white_hover" href="#">PODCAST</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-lg-2 col-md col-sm-4 col-3">
                   <a class="nav-link text_white_hover" href="#">CLASSIFICHE</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-lg-2 col-md col-sm-4 col-3">
                   <a class="nav-link active text_white_hover" href="#">GENERI E MOOD</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-lg-2 col-md col-sm-4 col-6">
                   <a class="nav-link text_white_hover" href="#">NUOVE USCITE</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-lg-2 col-md-12 col-sm-4 text-center col-6">
                   <a class="nav-link text_white_hover" href="#">SCOPRI</a>
                 </li>
               </ul>
@@ -108,7 +113,7 @@
           <div class="container-fluid mt-4">
             <h5 class="text-white">Recently played</h5>
             <div class="row mt-3">
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/metal_lifting.jpg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
@@ -116,7 +121,7 @@
                 <h6 class="h_main pt-2 text-center">Heavy Metal</h6>
                 <p class="text-center p_main">Subtitle</p>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/stranger.jpeg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
@@ -124,7 +129,7 @@
                 <h6 class="h_main pt-2 text-center">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h6>
                 <p class="text-center p_main">Kyle Dixon & Michael Stein</p>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/aquietplace.jpeg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
@@ -132,7 +137,7 @@
                 <h6 class="h_main pt-2 text-center">A quiet place</h6>
                 <p class="text-center p_main">Subtitle</p>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/split.jpeg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
@@ -140,7 +145,7 @@
                 <h6 class="h_main pt-2 text-center">Split</h6>
                 <p class="text-center p_main">Subtitle</p>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/cure.jpeg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
@@ -148,7 +153,7 @@
                 <h6 class="h_main pt-2 text-center">A cure for wellness</h6>
                 <p class="text-center p_main">Subtitle</p>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/sinister.jpeg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
@@ -163,14 +168,14 @@
             <h5 class="text-white">Creato per John Doe</h5>
             <p class="p_subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
             <div class="row mt-3">
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/radar.jpeg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
                 </div>
                 <h6 class="h_main pt-2 text-center">Release Radar</h6>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/mixdaily.jpeg"  class="img_main" alt="">
                   <i class="far fa-play-circle main_play"></i>
@@ -184,14 +189,14 @@
             <h5 class="text-white">Artisti più popolari</h5>
             <p class="p_subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
             <div class="row mt-3">
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/youg.jpeg"  class="img_main br_img" alt="">
                   <i class="far fa-play-circle main_play"></i>
                 </div>
                 <h6 class="h_main pt-2 text-center">Lana Del Rey</h6>
                 </div>
-              <div class="col-2">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                 <div class="img_hover">
                   <img src="./Assets/IMG/einaudi.jpeg"  class="img_main br_img" alt="">
                   <i class="far fa-play-circle main_play"></i>
